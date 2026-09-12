@@ -108,7 +108,7 @@ Labels represent the status of claims within the reviewed public record, not an 
 
 ## Limitations
 
-- The dataset is manually curated from public sources.
+- The dataset is curated from six public sources and classifications involve reviewer judgment.
 - Public reports may be updated after this project's snapshot.
 - Some events rely primarily on first-party incident reporting.
 - Intent and motivation claims are inherently more uncertain than logged technical events.
