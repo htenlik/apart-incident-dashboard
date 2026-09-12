@@ -1,0 +1,62 @@
+[
+  {
+    "id": "S1",
+    "publisher": "OpenAI",
+    "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
+    "published": "2026-07-21",
+    "type": "Primary / initial disclosure",
+    "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+    "role": "Initial OpenAI account; useful for what was known and publicly stated immediately after disclosure.",
+    "notes": "Use carefully for claims later revised or expanded by the Aug 26 report."
+  },
+  {
+    "id": "S2",
+    "publisher": "Hugging Face",
+    "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
+    "published": "2026-07-27",
+    "type": "Primary / victim technical timeline",
+    "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
+    "role": "Main source for Hugging Face-side technical sequence, dates, access, lateral movement, and observed impact.",
+    "notes": "Treat statements about agent intent as inference unless independently corroborated."
+  },
+  {
+    "id": "S3",
+    "publisher": "CeSIA",
+    "title": "The OpenAI–Hugging Face incident: a detailed timeline and what it means",
+    "published": "2026-07-29",
+    "type": "Secondary / synthesis",
+    "url": "https://cesia.org/en/publications/the-openai-hugging-face-incident-what-we-know-what-we-dont-what-follows/",
+    "role": "Cross-checking chronology and locating points of disagreement or uncertainty across public accounts.",
+    "notes": "Useful synthesis, but prefer primary sources when available."
+  },
+  {
+    "id": "S4",
+    "publisher": "OpenAI",
+    "title": "The Hugging Face incident and the road ahead",
+    "published": "2026-08-26",
+    "type": "Primary / full incident report",
+    "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
+    "role": "Main OpenAI-side source for the fuller reconstruction, internal context, identified failures, and remediation.",
+    "notes": "Prefer this over the July 21 post when the two differ in level of detail."
+  },
+  {
+    "id": "S5",
+    "publisher": "METR",
+    "title": "Brief independent investigation of agents’ behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident",
+    "published": "2026-08-26",
+    "type": "Independent investigation",
+    "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/",
+    "role": "Independent corroboration and analysis of agent behavior, coordination, messages, and investigation limits.",
+    "notes": "Scope is mainly June 26–July 13 and does not cover the full later OpenAI infrastructure compromise."
+  },
+  {
+    "id": "S6",
+    "publisher": "Hugging Face",
+    "title": "Security incident disclosure — July 2026",
+    "published": "2026-07-16",
+    "type": "Primary / initial victim disclosure",
+    "url": "https://huggingface.co/blog/security-incident-july-2026",
+    "role": "Victim-side public disclosure used to anchor the July 16 disclosure event and early statements about scope and impact.",
+    "notes": "Later July 27 technical timeline provides much more detail; prefer S2 for mechanics."
+  }
+]
