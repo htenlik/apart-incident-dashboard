@@ -492,8 +492,8 @@
   {
     "id": "E025",
     "eventDate": "2026-07-16",
-    "eventTitle": "Partner or customer data was affected",
-    "claim": "The Hugging Face intrusion affected partner or customer data.",
+    "eventTitle": "Broader partner or customer data impact remained unsettled",
+    "claim": "Public sources establish limited access to specific customer-related content and metadata, but do not establish broader partner or customer data impact beyond that disclosed scope.",
     "status": "Uncertain",
     "category": "Impact",
     "primarySourceId": "S6",
@@ -501,9 +501,9 @@
       "S2",
       "S4"
     ],
-    "evidenceSummary": "Hugging Face's July 16 disclosure explicitly said the assessment of partner/customer data impact was still ongoing. The core sources used in this dataset document internal/private data exposure but do not establish a final public conclusion that partner or customer data was affected.",
-    "whyThisStatus": "The available core record does not support treating partner/customer impact as settled.",
-    "uncertainty": "Private internal data and credentials were accessed; that should not be silently equated with partner/customer data.",
+    "evidenceSummary": "Hugging Face's July 16 disclosure said the assessment of partner/customer impact was still ongoing. Its later technical timeline narrowed the disclosed customer-facing impact to a small set of ExploitGym/CyberGym-related datasets and operational metadata, while also documenting internal secrets and credentials exposure.",
+    "whyThisStatus": "The public record supports limited disclosed access, but does not support treating broader partner or customer data impact as settled.",
+    "uncertainty": "Limited customer-related access should not be silently equated with broad partner/customer data impact, and internal/private infrastructure exposure is a separate confirmed issue.",
     "tags": [
       "customer-data",
       "partner-data",
