@@ -23,13 +23,15 @@ Built for the Apart AI Incident Response Sprint.
 ## Features
 
 - Interactive incident timeline
-- 26 curated evidence records
+- 30 curated evidence records
 - Confirmed / Disputed / Uncertain classification
 - Filtering by status, source, category, and date
 - Evidence detail panel
 - Direct links to public sources
-- 6 actionable Checks / Watch Next items
+- 8 actionable Checks / Watch Next items
 - Related-evidence navigation
+
+The final dataset also includes selected incident-escalation and timeline-conflict records covering the June 27 alert claim, July 7 restart timing, the July 9 external sandbox launchpad, and the disputed exact participant count.
 
 ## Tech Stack
 
@@ -97,18 +99,18 @@ Event filtering is also supported through query parameters such as:
 
 ## Evidence Base
 
-The current dataset uses six public sources from:
+The incident dataset uses six public sources from:
 
 - OpenAI
 - Hugging Face
 - METR
 - CeSIA
 
-Labels represent the status of claims within the reviewed public record, not an assertion of ultimate ground truth.
+Labels represent the status of claims within the reviewed public record, not an assertion of ultimate ground truth. The research report additionally situates the project against incident catalogues, MITRE ATLAS, and structured analytic methods; those references are related work, not additional incident-evidence sources.
 
 ## Limitations
 
-- The dataset is curated from six public sources and classifications involve reviewer judgment.
+- The dataset is curated from six incident-specific public sources and classifications involve reviewer judgment.
 - Public reports may be updated after this project's snapshot.
 - Some events rely primarily on first-party incident reporting.
 - Intent and motivation claims are inherently more uncertain than logged technical events.
