@@ -7,7 +7,7 @@
     "type": "Primary / initial disclosure",
     "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
     "role": "Initial OpenAI account; useful for what was known and publicly stated immediately after disclosure.",
-    "notes": "Use carefully for claims later revised or expanded by the Aug 26 report."
+    "notes": "Page updated July 28–29, 2026; accessed September 12, 2026. Use carefully for claims later revised or expanded by the August 26 report."
   },
   {
     "id": "S2",
@@ -26,8 +26,8 @@
     "published": "2026-07-29",
     "type": "Secondary / synthesis",
     "url": "https://cesia.org/en/publications/the-openai-hugging-face-incident-what-we-know-what-we-dont-what-follows/",
-    "role": "Cross-checking chronology and locating points of disagreement or uncertainty across public accounts.",
-    "notes": "Useful synthesis, but prefer primary sources when available."
+    "role": "Secondary chronology and synthesis used to surface points of disagreement, evolving claims, and open questions; not treated as independent corroboration of first-party internal events.",
+    "notes": "First published July 29, 2026; last updated September 2, 2026; accessed September 12, 2026. Prefer primary sources for mechanics and internal events."
   },
   {
     "id": "S4",
