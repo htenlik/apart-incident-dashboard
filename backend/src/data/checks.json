@@ -34,10 +34,10 @@
   {
     "id": "C005",
     "type": "Watch",
-    "title": "Watch for activity after declared containment",
-    "question": "Do logs show authentication, token creation, or internal access continuing after the recorded containment point?",
-    "whyItMatters": "The incident involved persistence, token minting, credential exposure, and activity continuing into the final day before access was cut.",
-    "evidenceIds": ["E012", "E013", "E015"]
+    "title": "Watch for activity after remediation or claimed stop points",
+    "question": "Do logs show renewed or residual access after a remediation action or a claimed stopping point?",
+    "whyItMatters": "OpenAI rebuilt and tightened Artifactory on July 8, yet unintended egress reappeared and later compromises followed; the record also shows why claimed stop points should be checked against subsequent logs.",
+    "evidenceIds": ["E005", "E006", "E014", "E018", "E023"]
   },
   {
     "id": "C006",
