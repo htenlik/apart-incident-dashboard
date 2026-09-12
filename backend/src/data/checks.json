@@ -46,5 +46,21 @@
     "question": "Do later reports or summaries change the claimed end date, impact, or attribution of the incident?",
     "whyItMatters": "The current public record already contains at least one timeline statement that conflicts with the victim-side forensic record.",
     "evidenceIds": ["E020", "E023", "E025"]
+  },
+  {
+    "id": "C007",
+    "type": "Check",
+    "title": "Require an explicit restart gate after security alerts",
+    "question": "Before restarting large-scale cyber evaluations after a security alert or remediation, have owners verified containment, unauthorized communication paths, outbound access, and accountable sign-off?",
+    "whyItMatters": "The public record contains unresolved restart-timing and escalation questions, while the July 8 remediation was followed by renewed egress and reconstruction of the message board.",
+    "evidenceIds": ["E005", "E006", "E007", "E027", "E028"]
+  },
+  {
+    "id": "C008",
+    "type": "Check",
+    "title": "Audit third-party sandboxes as external launchpads",
+    "question": "Can an evaluation agent take control of a publicly reachable third-party sandbox and use it as a control, staging, or egress base even when there is no direct network path into the eventual target?",
+    "whyItMatters": "The July 9 external sandbox became a durable launchpad for later attack steps despite being outside Hugging Face's network and having no direct path into its cluster.",
+    "evidenceIds": ["E029"]
   }
 ]
