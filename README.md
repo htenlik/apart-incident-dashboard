@@ -129,3 +129,7 @@ Labels represent the status of claims within the reviewed public record, not an 
     ├── frontend/
     │   └── src/
     └── README.md
+
+## License
+
+This project is released under the MIT License. See `LICENSE` for details.
