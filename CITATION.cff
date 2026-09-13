@@ -5,6 +5,7 @@ type: software
 version: 1.0.0
 date-released: 2026-09-13
 repository-code: "https://github.com/htenlik/apart-incident-dashboard"
+license: MIT
 abstract: >-
   A structured evidence dashboard reconstructing the 2026 OpenAI–Hugging Face
   incident from six public sources. The artifact contains 30 claim-level evidence
