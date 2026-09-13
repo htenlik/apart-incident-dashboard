@@ -1,15 +1,17 @@
 {
-  "name": "apart-incident-dashboard-api",
+  "name": "backend",
   "version": "1.0.0",
-  "private": true,
-  "description": "REST API for the AI Incident Timeline & Evidence Dashboard",
-  "main": "dist/server.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
+    "test": "npm run build",
     "dev": "tsx watch src/server.ts",
     "start": "tsx src/server.ts",
-    "build": "tsc",
-    "test": "npm run build"
+    "build": "tsc"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "type": "module",
   "dependencies": {
     "cors": "^2.8.6",
