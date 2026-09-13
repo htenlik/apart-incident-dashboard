@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this research artifact, please cite it using the metadata below."
+title: "AI Incident Timeline & Evidence Dashboard"
+type: software
+version: 1.0.0
+date-released: 2026-09-13
+repository-code: "https://github.com/htenlik/apart-incident-dashboard"
+abstract: >-
+  A structured evidence dashboard reconstructing the 2026 OpenAI–Hugging Face
+  incident from six public sources. The artifact contains 30 claim-level evidence
+  records classified as Confirmed, Disputed, or Uncertain, together with eight
+  evidence-linked Checks / Watch Next items.
+authors:
+  - given-names: Hüseyin
+    family-names: Tenlik
+    affiliation: "Hacettepe University, Computer Engineering"
+  - given-names: Emre
+    family-names: Bilgiç
+    affiliation: "Hacettepe University, Computer Engineering"
+  - given-names: Deniz
+    family-names: Süren
+    affiliation: "Hacettepe University, Computer Engineering"
